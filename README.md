@@ -3,11 +3,15 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: *By simply calling the 'naked_twins()' function in 'reduce_puzzle()' function, 
+the constraint propagation is carried out. The 'search()' function is recursive. 
+It calls 'reduce_puzzle()' recursively, so as to use the naked twins and the other two strategies 
+every time it tries out a branch of the search tree.*
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: *Diagonal sudoku adds two more units of constraint, one for each diagonal. Hence, simply adding those two units to
+the unilist will propagate this new constraint just as other old constraints.*
 
 ### Install
 
