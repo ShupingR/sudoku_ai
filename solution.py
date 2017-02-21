@@ -1,5 +1,5 @@
-# Note: implementation naked twin strategy and diagonal constraint propagation
-# based on Udacity Solving a Sudoku using AI lecture notes
+# Note: Implementation of naked twins strategy and diagonal constraint propagation
+# based on Udacity AIND 'Solving a Sudoku using AI' lecture notes
 
 # encoding the board
 rows = 'ABCDEFGHI'
